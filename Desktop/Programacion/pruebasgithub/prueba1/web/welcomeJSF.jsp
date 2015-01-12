@@ -18,6 +18,8 @@
         <body>
             <h1><h:outputText value="JavaServer Faces"/></h1>
             <h:outputText value="Rodrigo Aranda fernadez" style="Arial" title="Prueba de git"/>
+            <h:inputText id="txtnombre" value="" label="nombre personal" required="true"/>
+            <h:message errorStyle="error" title="ejemplo" for="txtnombre" />
         </body>
     </html>
 </f:view>
