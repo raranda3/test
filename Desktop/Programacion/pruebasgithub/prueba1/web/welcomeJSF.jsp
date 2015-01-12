@@ -10,7 +10,7 @@
     This file is an entry point for JavaServer Faces application.
 --%>
 <f:view>
-    <html>
+    <html xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <title>JSP Page</title>
@@ -20,6 +20,8 @@
             <h:outputText value="Rodrigo Aranda fernadez" style="Arial" title="Prueba de git"/>
             <h:inputText id="txtnombre" value="" label="nombre personal" required="true"/>
             <h:message errorStyle="error" title="ejemplo" for="txtnombre" />
+            
+
         </body>
     </html>
 </f:view>
